@@ -1,7 +1,7 @@
 To generate the OG image for your project:
 
 1. Run the development server with `npm run dev`
-2. Visit http://localhost:3000/og-image in your browser
+2. Visit http://localhost:6000/og-image in your browser
 3. Use browser developer tools to set the viewport to exactly 1200×630px
 4. Take a screenshot of the rendered image
 5. Save the screenshot as og-image.png in this directory (public/images/)
