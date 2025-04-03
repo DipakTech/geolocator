@@ -19,7 +19,7 @@ SEO metadata is configured in two places:
 An Open Graph image is used when your site is shared on social media platforms. To create this image:
 
 1. Run the development server: `npm run dev`
-2. Visit http://localhost:6000/og-image in your browser
+2. Visit http://localhost:3001/og-image in your browser
 3. Use browser developer tools to set the viewport to exactly 1200×630px
 4. Take a screenshot of the rendered image
 5. Save the screenshot as `og-image.png` in the `public/images/` directory
