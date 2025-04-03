@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      # Add any other environment variables needed by your app
+      # - DATABASE_URL=your_database_url
+      # - API_KEY=your_api_key
+    # Uncomment the following volume if you need persistent storage
+    # volumes:
+    #   - ./data:/app/data 
