@@ -1,0 +1,1 @@
+We need a placeholder image for the application preview. Since we can't generate one here, we'll use a fallback mechanism in the code to handle missing images.
